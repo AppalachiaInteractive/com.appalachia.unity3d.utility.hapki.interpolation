@@ -1,13 +1,43 @@
 {
-    "displayName": "Hapki Libs",
-    "keywords": [
-        "hapki",
-        "utillities"
-    ],
-    "name": "se.hapki.libs",
-    "unity": "2018.1",
-    "version": "0.0.4",
-    "dependencies": {
-        "com.unity.timeline": "1.0.0"
-    }
+  "name": "com.appalachia.unity3d.utility.hapki.interpolation",
+  "displayName": "Appalachia.Utility.Hapki.Interpolation for Unity3D",
+  "version": "0.1.0",
+  "unity": "2020.3",
+  "description": "Interpolation utilities exposed through a flexible interface.  Enables cubic, quadratic, trigonometric and sigmoid-like interpolations,  Supports easing in and out.",
+  "keywords": [
+    "Scripts",
+    "Tool"
+  ],
+  "category": "Tool",
+  "license": "MIT",
+  "author": {
+    "name": "Appalachia Interactive"
+  },
+  "contributors": [
+    {"name": "Appalachia Interactive"},
+    {"name": "Malte Hildingsson"}
+  ],
+  "dependencies": {
+  },
+  "repository": {
+    "url": "https://github.com/AppalachiaInteractive/com.appalachia.unity3d.utility.hapki.interpolation.git",
+    "type": "git"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
+  "scripts": {
+    "preversion" : "bash ~/com.appalachia/appa/appa package unity3d preversion",
+    "version" : "bash ~/com.appalachia/appa/appa package unity3d version",
+    "postversion" : "bash ~/com.appalachia/appa/appa package unity3d postversion",
+    "prepack" : "bash ~/com.appalachia/appa/appa package unity3d prepack",    
+    "package" : "bash ~/com.appalachia/appa/appa package unity3d package",
+    "postpack" : "bash ~/com.appalachia/appa/appa package unity3d postpack",
+    "vscode:prepublish" : "bash ~/com.appalachia/appa/appa package unity3d vscode_prepublish",
+    "prepublishOnly" : "bash ~/com.appalachia/appa/appa package unity3d prepublishOnly",
+    "publish" : "bash ~/com.appalachia/appa/appa package unity3d publish",
+    "postpublish" : "bash ~/com.appalachia/appa/appa package unity3d postpublish"
+  }
 }
+
+
