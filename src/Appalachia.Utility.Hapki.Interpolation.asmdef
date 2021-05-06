@@ -1,6 +1,6 @@
 {
-	"name": "com.appalachia.unity3d.utility.hapki.interpolation",
-    "rootNamespace": "Appalachia.Utility.Interpolation",
+    "name": "Appalachia.Utility.Hapki.Interpolation",
+    "rootNamespace": "Appalachia.Utility.Hapki.Interpolation",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
