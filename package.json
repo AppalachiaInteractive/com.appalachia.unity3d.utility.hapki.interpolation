@@ -1,10 +1,10 @@
 {
   "name": "com.appalachia.unity3d.utility.hapki.interpolation",
   "displayName": "Appalachia.Utility.Hapki.Interpolation for Unity3D",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "unity": "2020.3",
   "description": "Interpolation utilities exposed through a flexible interface.  Enables cubic, quadratic, trigonometric and sigmoid-like interpolations,  Supports easing in and out.",
-    "library": "!!library!!",
+  "library": "!!library!!",
   "csrootnamespace": "!!csrootnamespace!!",
   "tagline": "!!tagline!!",
   "keywords": [
