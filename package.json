@@ -4,6 +4,9 @@
   "version": "0.1.1",
   "unity": "2020.3",
   "description": "Interpolation utilities exposed through a flexible interface.  Enables cubic, quadratic, trigonometric and sigmoid-like interpolations,  Supports easing in and out.",
+    "library": "!!library!!",
+  "csrootnamespace": "!!csrootnamespace!!",
+  "tagline": "!!tagline!!",
   "keywords": [
     "Scripts",
     "Tool"
@@ -27,7 +30,7 @@
     "type": "git"
   },
   "publishConfig": {
-    "registry": "http://localhost:4873/"
+    "registry": "http://34.138.227.71:4873/"
   },
   "scripts": {
     "preversion": "bash ~/com.appalachia/appa/appa package unity3d preversion",
