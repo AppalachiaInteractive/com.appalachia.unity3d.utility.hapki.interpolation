@@ -4,9 +4,6 @@
   "version": "0.1.2",
   "unity": "2020.3",
   "description": "Interpolation utilities exposed through a flexible interface.  Enables cubic, quadratic, trigonometric and sigmoid-like interpolations,  Supports easing in and out.",
-  "library": "!!library!!",
-  "csrootnamespace": "!!csrootnamespace!!",
-  "tagline": "!!tagline!!",
   "keywords": [
     "Scripts",
     "Tool"
