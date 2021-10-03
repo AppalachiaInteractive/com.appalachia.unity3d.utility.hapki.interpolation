@@ -40,6 +40,11 @@ namespace Appalachia.Utility.Interpolation
             return ((v1 - v0) * t) + v0;
         }
 
+        public static float LinearAngle(float v0, float v1, float t)
+        {
+            return Mathf.LerpAngle(v0, v1, t);
+        }
+
         public static float SmoothStep(float v0, float v1, float t)
         {
             var u = (-2f * t * t * t) + (3f * t * t);

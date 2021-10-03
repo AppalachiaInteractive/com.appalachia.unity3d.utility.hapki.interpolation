@@ -1,6 +1,6 @@
 {
-    "name": "Appalachia.Utility.Hapki.Interpolation",
-    "rootNamespace": "Appalachia.Utility.Hapki.Interpolation",
+    "name": "Appalachia.Utility.Interpolation",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

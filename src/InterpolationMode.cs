@@ -1,4 +1,4 @@
-namespace Appalachia.Utility.Hapki.Interpolation
+namespace Appalachia.Utility.Interpolation
 {
     public enum InterpolationMode
     {
