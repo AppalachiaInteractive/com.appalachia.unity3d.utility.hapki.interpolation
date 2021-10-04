@@ -12,6 +12,12 @@
 ## Releasing
 | Hash | Date | Author | Changes |
 |------|------|--------|---------|
+| 734b1c2f35de8f6559066a787a6d9bdbf2d0293e | 2021-10-04 | Chris Schubert | Code cleanup and refactoring |
+
+
+ ## Tag: `v0.1.4`
+| Hash | Date | Author | Changes |
+|------|------|--------|---------|
 | 829cb283ab6f4a90057a36f471e1278b6f2b612e | 2021-10-03 | Chris Schubert | Organizing Appalachia packages for package management |
 
 
