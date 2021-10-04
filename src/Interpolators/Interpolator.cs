@@ -7,6 +7,11 @@ namespace Appalachia.Utility.Interpolation.Interpolators
     [Serializable]
     public struct Interpolator : IInterpolator
     {
+        public float start { get; set; }
+        public float target { get; set; }
+        public float value { get; set; }
+        public float time { get; set; }
+
         public static float Update<TInterpolation, TMode>(ref TInterpolation i, float dt, TMode e)
             where TInterpolation : struct, IInterpolator
             where TMode : IInterpolationMode
@@ -15,11 +20,6 @@ namespace Appalachia.Utility.Interpolation.Interpolators
             i.value = e.Interpolate(i);
             return i.value;
         }
-
-        public float start { get; set; }
-        public float target { get; set; }
-        public float value { get; set; }
-        public float time { get; set; }
 
         public void Target(float v)
         {
@@ -38,7 +38,6 @@ namespace Appalachia.Utility.Interpolation.Interpolators
             value = v;
             time = 0f;
         }
-
 
         public float Update<E>()
             where E : struct, IInterpolationMode
