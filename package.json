@@ -1,7 +1,7 @@
 {
   "name": "com.appalachia.unity3d.utility.interpolation",
   "displayName": "Appalachia.Utility.Interpolation for Unity3D",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "unity": "2020.3",
   "description": "Interpolation utilities exposed through a flexible interface.  Enables cubic, quadratic, trigonometric and sigmoid-like interpolations,  Supports easing in and out.",
   "keywords": [
